@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🌡️ Temperature Converter</h1>
+
+    <div class="converter-card">
+      <label for="temperatureInput">Enter Temperature:</label>
+      <input type="number" id="temperatureInput" placeholder="e.g. 100">
+
+      <label for="conversionType">Select Conversion:</label>
+      <select id="conversionType">
+        <option value="CtoF">Celsius → Fahrenheit</option>
+        <option value="FtoC">Fahrenheit → Celsius</option>
+      </select>
+
+      <button onclick="convertTemperature()">🔁 Convert</button>
+
+      <div class="result" id="result">Result will appear here</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
