@@ -2,7 +2,7 @@
 
 A simple and interactive web-based temperature converter that allows users to convert values between Celsius and Fahrenheit.
 
-## 🚀 Features
+## Features
 
 - Convert temperature between:
   - Celsius (°C)
